@@ -61,3 +61,6 @@ Edit `app.js`, `styles.css`, or `index.html`, commit the updated files to GitHub
 - `manifest.webmanifest` — installable app metadata
 - `sw.js` — offline caching
 - `icons/` — app icons
+
+## Team branding (v1.1)
+The header and installed app icon now use the original red/black Cocky Blockers image (`icons/cocky-blockers-original.jpg`). The CSS theme is charcoal, red, white and gray. To replace the logo again, replace that JPG and regenerate the 192/512 icons. The service worker cache is bumped to v1.1.0 to deliver the changes to existing installations.
